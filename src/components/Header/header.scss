@@ -1,0 +1,39 @@
+#header {
+  background: #141C3A;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: beige;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__branding {
+    font-size: 28px;
+    font-weight: 600;
+    cursor: default;
+  }
+
+  .header__group {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__social {
+    color: beige;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .header__social:last-of-type {
+    margin-right: 0;
+  }
+}
+

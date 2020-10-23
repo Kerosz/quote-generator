@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #10162F;
+}
+
+#app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+#app > header {
+  grid-area: header;
+}
+
+#app > main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#app > footer {
+  grid-area: footer;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.heading {
+  color: beige;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 15px;
+  background: #FFC917;
+  padding: 10px 25px;
+  border: #141C3A 1px solid;
+  outline: none;
+  cursor: pointer;
+}

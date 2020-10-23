@@ -1,0 +1,34 @@
+.card {
+  width: inherit;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: beige;
+  border: 5px solid transparent;
+  border-radius: 6px;
+  padding: 18px 20px;
+  margin-bottom: 30px;
+  transition: all 150ms;
+  color: #141C3A;
+  cursor: default;
+
+  .card__text {
+    font-size: 26px;
+    font-style: italic;
+  }
+
+  .card__author {
+    font-size: 22px;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+
+  &:hover {
+    transform: translate(2px, -2px);
+    border: 5px solid transparent;
+    border-bottom-color: #FFC917;
+    border-left-color: #FFC917;
+  }
+}
