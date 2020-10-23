@@ -47,8 +47,8 @@ export default function App() {
 
     const cardText = document.querySelector(".card__text");
     const cardAuthor = document.querySelector(".card__author");
-    cardText.innerText = quote;
-    cardAuthor.innerText = author;
+    cardText.innerText = `"${quote}"`;
+    cardAuthor.innerText = `"${author}"`;
   }
 
   Button.addEventListener("click", handleClick);

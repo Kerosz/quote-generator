@@ -6,4 +6,9 @@
   align-items: center;
   color: beige;
   box-shadow: 3px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
 }
