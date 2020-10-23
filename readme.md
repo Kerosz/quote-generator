@@ -1,3 +1,5 @@
+[![Preview Image](https://github.com/Kerosz/quote-generator/tree/main/dist/images/preview.jpg)]
+
 ## Table of contents
 
 - [Introduction](#introduction)
