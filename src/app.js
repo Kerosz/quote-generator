@@ -3,7 +3,7 @@ import Component from "./components/component";
 import cardContainer from "./containers/cardContainer";
 import footerContainer from "./containers/footerContainer";
 import headerContainer from "./containers/headerContainer";
-import data from "./data";
+import data from "./constants/data";
 
 import "./global.scss";
 

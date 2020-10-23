@@ -12,7 +12,7 @@
 ## Introduction
 
 
-[![Build Status](https://img.shields.io/badge/build-latest-brightgreen?style=flat-square)](quote-generator-kerosz.netlify.app)
+[![Build Status](https://img.shields.io/badge/build-latest-brightgreen?style=flat-square)](https://quote-generator-kerosz.netlify.app/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://chirila.dev)
 
 A quote generator program, every time a user runs the program, they should get a new, randomized quote.
@@ -36,6 +36,6 @@ A quote generator program, every time a user runs the program, they should get a
 
 This project was build to learn the basic of Javascript/ Git and Github and the Command Line.
 
-Part of the [Codecademy](https://www.codecademy.com) new [Full-Stack Path](https://www.codecademy.com/paths/full-stack-engineer-career-path).
+The challange is part of the [Codecademy](https://www.codecademy.com) new [Full-Stack Path](https://www.codecademy.com/paths/full-stack-engineer-career-path).
 
  
