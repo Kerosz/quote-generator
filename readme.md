@@ -1,4 +1,6 @@
-[![Preview Image](https://github.com/Kerosz/quote-generator/tree/main/dist/images/preview.jpg)]
+<p align="center">
+  <img src = "https://raw.githubusercontent.com/Kerosz/quote-generator/main/dist/images/preview.jpg" width=1000>
+</p>
 
 ## Table of contents
 
