@@ -4,13 +4,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: beige;
+  background: #141C3A;
   border: 5px solid transparent;
   border-radius: 6px;
   padding: 18px 20px;
   margin-bottom: 30px;
   transition: all 150ms;
-  color: #141C3A;
+  color: beige;
   cursor: default;
 
   .card__text {
@@ -30,5 +30,6 @@
     border: 5px solid transparent;
     border-bottom-color: #FFC917;
     border-left-color: #FFC917;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.09);
   }
 }

@@ -1,10 +1,10 @@
 import Card from "../components/Card";
 
-export default function () {
+export default function (quote, author) {
   const CardWrapper = Card();
 
-  const CardText = Card.Text("Hello from the card");
-  const CardAuthor = Card.Author("Andrei C");
+  const CardText = Card.Text(quote);
+  const CardAuthor = Card.Author(author);
 
   CardWrapper.appendChild(CardText);
   CardWrapper.appendChild(CardAuthor);
